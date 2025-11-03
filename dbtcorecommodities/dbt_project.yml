@@ -17,6 +17,7 @@ test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
+docs-paths: ["docs"]
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
@@ -31,6 +32,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbtcorecommodities:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    staging:
+      materialized: view
+      +docs:
+        node_color: "#cd7f32"  # Cor bronze para a camada raw
+    mart:
+      materialized: view
+      +docs:
+        node_color: "#e6b530"  # Cor ouro para a camada reports
