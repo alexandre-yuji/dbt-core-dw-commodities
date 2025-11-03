@@ -1,0 +1,29 @@
+[0m20:14:22.815851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1C0FFA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1E570080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1E787920>]}
+
+
+============================== 20:14:22.927117 | fc6b126e-310c-458f-9766-c10a83ed283f ==============================
+[0m20:14:22.927117 [info ] [MainThread]: Running with dbt=1.10.13
+[0m20:14:22.930331 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'no_print': 'None', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\alexa\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m20:15:18.807628 [debug] [MainThread]: Starter project path: C:\Users\alexa\Desktop\Certificados_TCS\Jornada de Dados\Bootcamp_dbt_core\dbt-core-dw-commodities\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:15:18.844316 [info ] [MainThread]: 
+Your new dbt project "dbtcorecommodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:15:18.844316 [info ] [MainThread]: Setting up your profile.
+[0m20:15:59.066570 [info ] [MainThread]: Profile dbtcorecommodities written to C:\Users\alexa\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:15:59.066570 [debug] [MainThread]: Command `dbt init` succeeded at 20:15:59.066570 after 96.37 seconds
+[0m20:15:59.066570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1E61FBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1E61DCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C1E61C350>]}
+[0m20:15:59.066570 [debug] [MainThread]: Flushing usage events
+[0m20:16:00.275049 [debug] [MainThread]: An error was encountered while trying to flush usage events
